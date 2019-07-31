@@ -1,16 +1,11 @@
-import React, {Component}  from 'react';
-import {CardFooter} from 'reactstrap';
+import React  from 'react';
+// import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
 
-class Footer extends Component {
-    
-    render() {
-      return (
-
-            <div>
-            <CardFooter className="text-muted">Exampel link</CardFooter>
-            </div>
-          );
-        }
-      }
-
+const Footer = () => {
+  return (
+    <footer>
+    exempel
+    </footer>
+  );
+}
 export default Footer;

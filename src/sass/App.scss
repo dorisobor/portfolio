@@ -1,0 +1,95 @@
+// .App {
+//   text-align: center;
+//   background-color: #242424;
+
+
+// }
+/*HOME*/
+
+.jumbotron-text{
+ color:white;
+ text-align: right;
+}
+
+ .jumbotron {
+  background-image:linear-gradient(to bottom, rgba(36, 36, 36, 1), rgba(105, 61, 82, 0.397)),
+  url('../images/background/nightsky.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color:purple;
+}
+
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+.coding-astronaut {
+   pointer-events: none;
+   max-width: 100%;
+   height: auto;
+   animation: float 6s ease-in-out infinite;
+   margin-left: 10px;
+ }
+ @keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+
+}
+.ufo{
+  text-align: center;
+    margin-top: -195px;
+    margin-right: 300px;
+    img {
+      height: 350px;
+
+    }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+$font: #00FF41;
+
+
+
+// .cursor {
+//   border-left: .1em solid $font;
+//   animation: blink .7s steps(1) infinite;
+// }
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+//media quiries
+
+@media screen and (max-width:576px) {
+  @import "_mobile.scss";
+  
+  }
