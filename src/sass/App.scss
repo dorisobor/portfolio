@@ -4,6 +4,22 @@
 
 
 // }
+
+
+
+.navbar {
+
+  background-color: transparent !important;
+
+   .nav-link {
+    color: white !important;
+  }
+}
+
+.navbar-brand {
+  color: white !important;
+
+}
 /*HOME*/
 
 .jumbotron-text{
@@ -11,11 +27,18 @@
  text-align: right;
 }
 
- .jumbotron {
+ .home-wrapper {
   background-image:linear-gradient(to bottom, rgba(36, 36, 36, 1), rgba(105, 61, 82, 0.397)),
   url('../images/background/nightsky.gif');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+.jumbotron {
+  background-color: transparent !important;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
 footer {

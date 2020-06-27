@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './sass/App.scss';
 import Home from './components/Home';
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 // function App() {
@@ -34,7 +33,6 @@ import Footer from './components/Footer'
 const App = () => (
   <Router>
     <div>
-      <Navbar />
       <Route exact path="/" component={Home} />
       <Footer />
     </div>
